@@ -74,7 +74,7 @@ body {
 body {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    background-color: #EBF7E3;
+    background-color: #190934;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -145,14 +145,14 @@ ul {
 }
 
 ::-moz-selection {
-    background: #66B032;
-    color: #EBF7E3;
+    background: #236AB9;
+    color: #190934;
     text-shadow: none;
 }
 
 ::selection {
-    background: #66B032;
-    color: #EBF7E3;
+    background: #236AB9;
+    color: #190934;
     text-shadow: none;
 }
 
@@ -262,7 +262,7 @@ ul {
     z-index: 99;
     background-color: transparent;
     transition: background-color 0.5s ease;
-    background-color: #EBF7E3;
+    background-color: #190934;
     border-bottom: 1px solid rgba(170, 114, 206, 0.12);
 }
 
@@ -356,7 +356,7 @@ ul {
     top: 80px;
     bottom: 0;
     left: 0;
-    background-color: #EBF7E3;
+    background-color: #190934;
     padding: 30px 15px 0;
     transition: transform 0.5s ease;
     transform: translate3d(-250px, 0, 0);
@@ -396,12 +396,12 @@ ul {
 
 .header__nav a:hover,
 .header__nav a[aria-expanded="true"] {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .header__nav a:hover svg,
 .header__nav a[aria-expanded="true"] svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .header__dropdown {
@@ -428,12 +428,12 @@ ul {
 
 .header__dropdown .dropdown-toggle:hover,
 .header__dropdown .dropdown-toggle[aria-expanded="true"] {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .header__dropdown .dropdown-toggle:hover svg,
 .header__dropdown .dropdown-toggle[aria-expanded="true"] svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .header__dropdown .dropdown-toggle--menu svg {
@@ -444,7 +444,7 @@ ul {
 
 .header__dropdown-menu {
     position: absolute;
-    background-color: #66B032;
+    background-color: #236AB9;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -461,7 +461,7 @@ ul {
     margin-top: 0;
     top: 0;
     transform: translate3d(0px, 24px, 0px);
-    border: 1px solid #EBF7E3;
+    border: 1px solid #190934;
 }
 
 .header__dropdown-menu .header__dropdown-menu {
@@ -498,7 +498,7 @@ ul {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background-color: #66B032;
+    background-color: #236AB9;
     left: 0;
     top: 50%;
     margin-top: -2px;
@@ -506,7 +506,7 @@ ul {
 }
 
 .header__dropdown-menu a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .header__dropdown-menu a:hover:before {
@@ -545,7 +545,7 @@ ul {
 }
 
 .header__cta:hover {
-    border-color: #66B032;
+    border-color: #236AB9;
     box-shadow: 0 0 22px rgba(170, 114, 206, 0.12);
 }
 
@@ -648,7 +648,7 @@ ul {
         text-transform: none;
     }
     .header__nav a:hover {
-        color: #66B032;
+        color: #236AB9;
     }
     .header__dropdown-menu {
         transform: translate3d(0px, 40px, 0px);
@@ -676,7 +676,7 @@ ul {
         justify-content: flex-start;
     }
     .header__dropdown-menu a:hover {
-        color: #66B032;
+        color: #236AB9;
     }
     .header__dropdown-menu.show {
         margin-top: 0;
@@ -703,7 +703,7 @@ ul {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 20px;
     padding: 60px 20px;
     position: relative;
@@ -734,7 +734,7 @@ ul {
 }
 
 .hero__tagline {
-    color: #66B032;
+    color: #236AB9;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -797,7 +797,7 @@ ul {
     overflow: hidden;
     background-color: transparent;
     border-radius: 20px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .hero__btn span {
@@ -968,7 +968,7 @@ ul {
 }
 
 .section__title strong {
-    color: #66B032;
+    color: #236AB9;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -998,7 +998,7 @@ ul {
 
 .section__title h1 a:hover,
 .section__title h2 a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .section__title p {
@@ -1010,7 +1010,7 @@ ul {
 }
 
 .section__title p a {
-    color: #66B032;
+    color: #236AB9;
     position: relative;
     font-weight: 600;
 }
@@ -1024,7 +1024,7 @@ ul {
     left: 0;
     bottom: 0;
     border-radius: 4px;
-    background-color: #66B032;
+    background-color: #236AB9;
     opacity: 0;
     transition: 0.5s ease;
     transition-property: opacity, bottom;
@@ -1065,7 +1065,7 @@ ul {
     background-color: transparent;
     border-radius: 20px;
     margin: 40px auto 0;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .section__btn span {
@@ -1158,11 +1158,11 @@ ul {
 .section__carousel .splide__pagination__page.is-active {
     transform: scale(1);
     width: 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .section__carousel--block {
-    background-color: #EBF7E3;
+    background-color: #190934;
     border-radius: 20px;
     margin-top: 20px;
     padding: 30px 20px;
@@ -1181,7 +1181,7 @@ ul {
     right: 20px;
     left: 20px;
     border-radius: 4px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .section__chart {
@@ -1252,7 +1252,7 @@ ul {
 }
 
 .section__tokenomics li.clr9:before {
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .section__content {
@@ -1298,7 +1298,7 @@ ul {
 }
 
 .section--light {
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .section--light:before {
@@ -1523,7 +1523,7 @@ ul {
 }
 
 .filter__search:hover input {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .filter__search input {
@@ -1540,7 +1540,7 @@ ul {
 }
 
 .filter__search input:focus {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .filter__search button {
@@ -1563,7 +1563,7 @@ ul {
 }
 
 .filter__search button:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .filter__select2 {
@@ -1592,7 +1592,7 @@ ul {
 }
 
 .filter__select2 .select2-selection--single:hover .select2-selection__rendered {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .filter__select2:last-child {
@@ -1614,26 +1614,26 @@ ul {
 }
 
 .filter__select2 .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color: #66B032;
+    background-color: #236AB9;
     color: #fff;
     white-space: nowrap;
 }
 
 .filter__select2 .select2-results__option--selected {
     color: #fff;
-    background-color: #66B032;
+    background-color: #236AB9;
     cursor: default;
 }
 
 .filter__select2 .select2-results__option[aria-selected="true"] {
     background-color: transparent;
-    color: #66B032;
+    color: #236AB9;
     cursor: default;
 }
 
 .filter__select2 .select2-results__option--highlighted[aria-selected] {
     background-color: transparent;
-    color: #66B032;
+    color: #236AB9;
 }
 
 .filter__select2 .select2-results__option {
@@ -1647,11 +1647,11 @@ ul {
 }
 
 .filter__select2 .select2-dropdown {
-    border: 1px solid #EBF7E3;
+    border: 1px solid #190934;
     border-radius: 20px !important;
     min-width: 180px;
     padding: 12px 0 12px 20px;
-    background: #66B032;
+    background: #236AB9;
     box-shadow: none;
     z-index: 98;
 }
@@ -1682,7 +1682,7 @@ ul {
 
 .filter__select2 .select2-results__options::-webkit-scrollbar-thumb {
     background-clip: padding-box;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-right: 12px solid rgba(0, 0, 0, 0);
     border-top: 12px solid rgba(0, 0, 0, 0);
     border-bottom: 12px solid rgba(0, 0, 0, 0);
@@ -1784,7 +1784,7 @@ ul {
     height: 40px;
     top: 50%;
     z-index: 2;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 16px;
     opacity: 1;
     transition: 0.5s ease;
@@ -1799,7 +1799,7 @@ ul {
 }
 
 .splide--details .splide__arrow:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .splide--details .splide__arrow--prev {
@@ -1830,7 +1830,7 @@ ul {
         right: 0;
         top: -45px;
         z-index: 2;
-        background-color: #66B032;
+        background-color: #236AB9;
         border-radius: 14px;
         opacity: 1;
         transform: none;
@@ -1842,7 +1842,7 @@ ul {
         transition: fill 0.5s ease;
     }
     .splide--content .splide__arrow:hover svg {
-        fill: #66B032;
+        fill: #236AB9;
     }
     .splide--content .splide__arrow--prev {
         right: 51px;
@@ -1872,7 +1872,7 @@ ul {
         right: 0;
         top: -115px;
         z-index: 2;
-        background-color: #EBF7E3;
+        background-color: #190934;
         border-radius: 14px;
         opacity: 1;
         transform: none;
@@ -1884,7 +1884,7 @@ ul {
         transition: fill 0.5s ease;
     }
     .splide--block .splide__arrow:hover svg {
-        fill: #66B032;
+        fill: #236AB9;
     }
     .splide--block .splide__arrow--prev {
         right: 51px;
@@ -1964,7 +1964,7 @@ ul {
 }
 
 .breadcrumb a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 @media (min-width: 768px) {
@@ -1986,7 +1986,7 @@ ul {
     width: 100%;
     height: 60px;
     border-radius: 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .paginator--table {
@@ -2015,11 +2015,11 @@ ul {
 .paginator__list li.active a {
     cursor: default;
     font-weight: 700;
-    color: #66B032;
+    color: #236AB9;
 }
 
 .paginator__list li.active a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .paginator__list a {
@@ -2030,7 +2030,7 @@ ul {
     width: 32px;
     height: 32px;
     border-radius: 12px;
-    background-color: #EBF7E3;
+    background-color: #190934;
     font-size: 14px;
     color: #dedede;
     font-weight: 400;
@@ -2044,11 +2044,11 @@ ul {
 }
 
 .paginator__list a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .paginator__list a:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 @media (min-width: 768px) {
@@ -2074,7 +2074,7 @@ ul {
 ==============================*/
 
 .features {
-    background-color: #66B032;
+    background-color: #236AB9;
     padding: 30px 20px;
     border-radius: 20px;
     margin-top: 20px;
@@ -2135,7 +2135,7 @@ ul {
     width: 60px;
     height: 4px;
     border-radius: 4px;
-    background-color: #66B032;
+    background-color: #236AB9;
     top: 0;
     left: 0;
     transition: 0.5s ease;
@@ -2181,7 +2181,7 @@ ul {
 ==============================*/
 
 .step {
-    background-color: #66B032;
+    background-color: #236AB9;
     padding: 30px 20px;
     border-radius: 20px;
     margin-top: 20px;
@@ -2227,7 +2227,7 @@ ul {
     font-size: 50px;
     line-height: 100%;
     font-weight: 600;
-    color: #66B032;
+    color: #236AB9;
     transition: text-shadow 0.5s ease;
 }
 
@@ -2284,7 +2284,7 @@ ul {
 ==============================*/
 
 .resources {
-    background-color: #66B032;
+    background-color: #236AB9;
     padding: 105px 20px 30px;
     border-radius: 20px;
     margin-top: 20px;
@@ -2328,14 +2328,14 @@ ul {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    background-color: #66B032;
+    background-color: #236AB9;
     transition: box-shadow 0.5s ease;
 }
 
 .resources__icon svg {
     width: 32px;
     height: auto;
-    fill: #66B032;
+    fill: #236AB9;
     position: relative;
     z-index: 2;
 }
@@ -2366,7 +2366,7 @@ ul {
     font-size: 16px;
     line-height: 26px;
     margin-top: 16px;
-    color: #66B032;
+    color: #236AB9;
     position: relative;
     font-weight: 700;
     text-transform: uppercase;
@@ -2383,7 +2383,7 @@ ul {
     left: 0;
     bottom: 2px;
     border-radius: 4px;
-    background-color: #66B032;
+    background-color: #236AB9;
     opacity: 0;
     transition: 0.5s ease;
     transition-property: opacity, bottom;
@@ -2391,7 +2391,7 @@ ul {
 }
 
 .resources__link:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .resources__link:hover:before {
@@ -2542,7 +2542,7 @@ ul {
 }
 
 .team__social a:nth-child(3n+1):hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .team__social a:nth-child(3n+2):hover svg {
@@ -2578,7 +2578,7 @@ ul {
     font-weight: 600;
     display: block;
     margin-bottom: 0;
-    color: #66B032;
+    color: #236AB9;
 }
 
 @media (min-width: 576px) {
@@ -2586,7 +2586,7 @@ ul {
         padding: 40px 20px 20px;
         border-radius: 0 0 20px 20px;
         margin-top: -20px;
-        background-color: #66B032;
+        background-color: #236AB9;
         border-top: none;
     }
     .team__about h3 {
@@ -2973,7 +2973,7 @@ ul {
 ==============================*/
 
 .accordion__card {
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -3004,7 +3004,7 @@ ul {
     height: 40px;
     border-radius: 14px;
     background-color: transparent;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
     position: absolute;
     right: 20px;
     top: 20px;
@@ -3102,7 +3102,7 @@ ul {
 
 .roadmap--active:before,
 .roadmap--active:after {
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .roadmap--active:after {
@@ -3113,7 +3113,7 @@ ul {
 }
 
 .roadmap--active .roadmap__list li:before {
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .roadmap__title {
@@ -3200,7 +3200,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .testimonial__text {
@@ -3211,7 +3211,7 @@ ul {
     width: 100%;
     height: auto;
     min-height: 230px;
-    background-color: #EBF7E3;
+    background-color: #190934;
     padding: 20px;
     position: relative;
     border-radius: 16px;
@@ -3262,7 +3262,7 @@ ul {
 
 .testimonial__client span {
     font-size: 14px;
-    color: #66B032;
+    color: #236AB9;
     line-height: 100%;
 }
 
@@ -3293,7 +3293,7 @@ ul {
     align-items: flex-start;
     margin-top: 20px;
     border-radius: 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
     padding: 20px;
     width: 100%;
 }
@@ -3337,7 +3337,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #EBF7E3;
+    background-color: #190934;
     width: 70px;
     height: 70px;
     border-radius: 16px;
@@ -3376,7 +3376,7 @@ ul {
 }
 
 .game__name a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .game__blockchain {
@@ -3470,7 +3470,7 @@ ul {
     overflow: hidden;
     background-color: transparent;
     border-radius: 16px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .game__more svg {
@@ -3485,7 +3485,7 @@ ul {
 }
 
 .game__more:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 @media (min-width: 768px) {
@@ -3544,7 +3544,7 @@ ul {
 }
 
 .ranking__table thead {
-    border-bottom: 20px solid #EBF7E3;
+    border-bottom: 20px solid #190934;
 }
 
 .ranking__table thead th {
@@ -3563,7 +3563,7 @@ ul {
 }
 
 .ranking__table tbody tr {
-    border-bottom: 10px solid #EBF7E3;
+    border-bottom: 10px solid #190934;
 }
 
 .ranking__table tbody td {
@@ -3590,7 +3590,7 @@ ul {
     align-items: center;
     height: 70px;
     padding: 0 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .ranking__cover {
@@ -3598,7 +3598,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #EBF7E3;
+    background-color: #190934;
     width: 44px;
     height: 44px;
     border-radius: 12px;
@@ -3618,7 +3618,7 @@ ul {
 }
 
 .ranking__name:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .ranking__text {
@@ -3631,7 +3631,7 @@ ul {
     color: #fff;
     font-weight: 400;
     padding: 0 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
     white-space: nowrap;
 }
 
@@ -3648,7 +3648,7 @@ ul {
 }
 
 .ranking__text a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .ranking__label {
@@ -3657,7 +3657,7 @@ ul {
     justify-content: flex-start;
     align-items: center;
     padding: 0 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
     height: 70px;
 }
 
@@ -3692,7 +3692,7 @@ ul {
     justify-content: flex-start;
     align-items: center;
     padding: 0 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
     height: 70px;
 }
 
@@ -3736,7 +3736,7 @@ ul {
     width: 100%;
     margin-top: 20px;
     border-radius: 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
     overflow: hidden;
 }
 
@@ -3789,12 +3789,12 @@ ul {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #66B032;
+    background-color: #236AB9;
     border: 1px solid rgba(170, 114, 206, 0.12);
 }
 
 .post__video svg {
-    fill: #66B032;
+    fill: #236AB9;
     width: 24px;
     height: auto;
     margin-left: 2px;
@@ -3808,7 +3808,7 @@ ul {
 }
 
 .post__video:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .post__content {
@@ -3831,7 +3831,7 @@ ul {
     color: #fff;
     font-size: 13px;
     background-color: transparent;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
     border-radius: 10px;
     padding: 0 15px;
     font-weight: 400;
@@ -3862,7 +3862,7 @@ ul {
 }
 
 .post__title a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .post__meta {
@@ -3886,7 +3886,7 @@ ul {
 }
 
 .post__date svg {
-    fill: #66B032;
+    fill: #236AB9;
     width: 16px;
     height: auto;
     margin-right: 5px;
@@ -3903,7 +3903,7 @@ ul {
 }
 
 .post__views svg {
-    fill: #66B032;
+    fill: #236AB9;
     width: 17px;
     height: auto;
     margin-right: 5px;
@@ -4010,7 +4010,7 @@ ul {
     display: block;
     position: relative;
     width: 100%;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 20px;
     padding: 20px;
     margin-top: -60px;
@@ -4027,7 +4027,7 @@ ul {
     color: #fff;
     font-size: 13px;
     background-color: transparent;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
     border-radius: 10px;
     padding: 0 15px;
     font-weight: 400;
@@ -4049,7 +4049,7 @@ ul {
 }
 
 .article__date svg {
-    fill: #66B032;
+    fill: #236AB9;
     width: 16px;
     height: auto;
     margin-right: 5px;
@@ -4144,13 +4144,13 @@ ul {
 }
 
 .article__content p a {
-    color: #66B032;
+    color: #236AB9;
     text-decoration: underline;
 }
 
 .article__content p a:hover,
 .article__content p a:focus {
-    color: #66B032;
+    color: #236AB9;
     text-decoration: none;
 }
 
@@ -4178,7 +4178,7 @@ ul {
     bottom: 2px;
     left: 0;
     width: 3px;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 3px;
 }
 
@@ -4207,7 +4207,7 @@ ul {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background-color: #66B032;
+    background-color: #236AB9;
     left: 0;
     top: 50%;
     margin-top: -2px;
@@ -4265,7 +4265,7 @@ ul {
 }
 
 .article__content ol li a {
-    color: #66B032;
+    color: #236AB9;
     position: relative;
     font-weight: 600;
 }
@@ -4279,7 +4279,7 @@ ul {
     left: 0;
     bottom: 0;
     border-radius: 4px;
-    background-color: #66B032;
+    background-color: #236AB9;
     opacity: 0;
     transition: 0.5s ease;
     transition-property: opacity, bottom;
@@ -4354,7 +4354,7 @@ ul {
     border-radius: 10px;
     color: #fff;
     font-size: 14px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .share__link svg {
@@ -4416,7 +4416,7 @@ ul {
     position: relative;
     margin-top: -60px;
     padding: 20px;
-    background: #66B032;
+    background: #236AB9;
 }
 
 .details__slider {
@@ -4511,7 +4511,7 @@ ul {
     position: relative;
     margin-top: 30px;
     padding: 20px;
-    background: #66B032;
+    background: #236AB9;
 }
 
 .description__title {
@@ -4711,7 +4711,7 @@ ul {
 .description__social a svg {
     width: 20px;
     height: auto;
-    fill: #66B032;
+    fill: #236AB9;
     position: relative;
 }
 
@@ -4739,7 +4739,7 @@ ul {
     position: relative;
     margin-top: 30px;
     padding: 20px;
-    background: #66B032;
+    background: #236AB9;
 }
 
 .play__btns {
@@ -4766,7 +4766,7 @@ ul {
     overflow: hidden;
     background-color: transparent;
     border-radius: 20px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .play__btn svg {
@@ -4808,7 +4808,7 @@ ul {
 }
 
 .play__btn--trailer:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .play__text {
@@ -4861,7 +4861,7 @@ ul {
     position: relative;
     margin-top: -60px;
     padding: 20px;
-    background: #66B032;
+    background: #236AB9;
 }
 
 .staking--second {
@@ -4926,13 +4926,13 @@ ul {
 
 .staking__tabs a:hover {
     color: #fff;
-    border-color: #66B032;
+    border-color: #236AB9;
     box-shadow: 0 0 22px rgba(170, 114, 206, 0.14);
 }
 
 .staking__tabs a.active {
-    border-color: #66B032;
-    color: #66B032;
+    border-color: #236AB9;
+    color: #236AB9;
     box-shadow: 0 0 22px rgba(170, 114, 206, 0.14);
 }
 
@@ -5008,7 +5008,7 @@ ul {
 
 .staking__apy p {
     margin-bottom: 0;
-    color: #66B032;
+    color: #236AB9;
     font-size: 30px;
     font-weight: 700;
 }
@@ -5052,7 +5052,7 @@ ul {
 
 .staking__input:hover,
 .staking__input:focus {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .staking__input--nephrite {
@@ -5080,7 +5080,7 @@ ul {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .staking__btn:hover {
@@ -5177,7 +5177,7 @@ ul {
 .contact__icon svg {
     width: 24px;
     height: auto;
-    fill: #66B032;
+    fill: #236AB9;
     position: relative;
 }
 
@@ -5276,7 +5276,7 @@ ul {
 .social__list a svg {
     width: 20px;
     height: auto;
-    fill: #66B032;
+    fill: #236AB9;
     position: relative;
 }
 
@@ -5312,7 +5312,7 @@ ul {
     margin-top: 50px;
     padding: 30px 20px;
     border-radius: 20px;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .form--content {
@@ -5389,12 +5389,12 @@ ul {
 
 .form__group--checkbox input:not(:checked)+label a,
 .form__group--checkbox input:checked+label a {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .form__group--checkbox input:not(:checked)+label a:hover,
 .form__group--checkbox input:checked+label a:hover {
-    color: #66B032;
+    color: #236AB9;
     text-decoration: underline;
 }
 
@@ -5421,7 +5421,7 @@ ul {
     height: 12px;
     text-align: center;
     transition: 0.5s ease;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-radius: 4px;
 }
 
@@ -5476,7 +5476,7 @@ ul {
 
 .form__input:hover,
 .form__input:focus {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__select {
@@ -5496,7 +5496,7 @@ ul {
 
 .form__select:hover,
 .form__select:focus {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__select2 {
@@ -5540,30 +5540,30 @@ ul {
 }
 
 .form__select2 .select2-selection--single:hover {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__select2 .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color: #66B032;
+    background-color: #236AB9;
     color: #fff;
     white-space: nowrap;
 }
 
 .form__select2 .select2-results__option--selected {
     color: #fff;
-    background-color: #66B032;
+    background-color: #236AB9;
     cursor: default;
 }
 
 .form__select2 .select2-results__option[aria-selected="true"] {
     background-color: transparent;
-    color: #66B032;
+    color: #236AB9;
     cursor: default;
 }
 
 .form__select2 .select2-results__option--highlighted[aria-selected] {
     background-color: transparent;
-    color: #66B032;
+    color: #236AB9;
 }
 
 .form__select2 .select2-results__option {
@@ -5581,7 +5581,7 @@ ul {
     border-radius: 20px !important;
     min-width: 180px;
     padding: 12px 0 12px 20px;
-    background: #EBF7E3;
+    background: #190934;
     box-shadow: none;
     z-index: 98;
 }
@@ -5612,7 +5612,7 @@ ul {
 
 .form__select2 .select2-results__options::-webkit-scrollbar-thumb {
     background-clip: padding-box;
-    background-color: #66B032;
+    background-color: #236AB9;
     border-right: 12px solid rgba(0, 0, 0, 0);
     border-top: 12px solid rgba(0, 0, 0, 0);
     border-bottom: 12px solid rgba(0, 0, 0, 0);
@@ -5635,7 +5635,7 @@ ul {
 }
 
 .form__select2 .select2-selection--multiple:hover {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__select2 .select2-selection--multiple .select2-search__field {
@@ -5655,7 +5655,7 @@ ul {
 }
 
 .form__select2 .select2-selection--multiple .select2-selection__choice {
-    background-color: #EBF7E3;
+    background-color: #190934;
     border: none;
     border-radius: 12px;
     display: flex;
@@ -5686,7 +5686,7 @@ ul {
 }
 
 .form__select2.select2-container--focus .select2-selection--multiple {
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
 }
 
 .form__textarea {
@@ -5705,7 +5705,7 @@ ul {
 
 .form__textarea:hover,
 .form__textarea:focus {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__gallery {
@@ -5757,7 +5757,7 @@ ul {
 }
 
 .form__gallery label:hover {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__radio {
@@ -5822,7 +5822,7 @@ ul {
 }
 
 .form__radio input:checked+label:before {
-    border-color: #66B032;
+    border-color: #236AB9;
 }
 
 .form__btn {
@@ -5841,7 +5841,7 @@ ul {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
     margin-top: 10px;
 }
 
@@ -5951,11 +5951,11 @@ ul {
 
 .form__text a {
     position: relative;
-    color: #66B032;
+    color: #236AB9;
 }
 
 .form__text a:hover {
-    color: #66B032;
+    color: #236AB9;
     text-decoration: underline;
 }
 
@@ -6023,13 +6023,13 @@ ul {
     position: relative;
     width: 100%;
     max-width: 420px;
-    background-color: #66B032;
+    background-color: #236AB9;
     z-index: 3;
 }
 
 .page-404__title {
     position: relative;
-    color: #66B032;
+    color: #236AB9;
     line-height: 100%;
     font-size: 120px;
     margin-bottom: 10px;
@@ -6062,7 +6062,7 @@ ul {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
-    border: 2px solid #66B032;
+    border: 2px solid #236AB9;
     margin-top: 10px;
 }
 
@@ -6082,7 +6082,7 @@ ul {
 ==============================*/
 
 .footer {
-    background-color: #66B032;
+    background-color: #236AB9;
     padding-top: 30px;
     position: relative;
     overflow: hidden;
@@ -6140,7 +6140,7 @@ ul {
 }
 
 .footer__social a:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .footer__content {
@@ -6163,7 +6163,7 @@ ul {
 }
 
 .footer__copyright a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .footer__title {
@@ -6195,7 +6195,7 @@ ul {
 }
 
 .footer__nav a:hover {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .footer__lang {
@@ -6236,19 +6236,19 @@ ul {
 }
 
 .footer__lang-btn:hover span {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .footer__lang-btn:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .footer__lang-btn[aria-expanded="true"] span {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .footer__lang-btn[aria-expanded="true"] svg {
-    fill: #66B032;
+    fill: #236AB9;
     transform: rotate(180deg);
 }
 
@@ -6264,7 +6264,7 @@ ul {
     min-width: 120px;
     transition: opacity 0.4s ease;
     height: auto;
-    background-color: #EBF7E3;
+    background-color: #190934;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -6301,7 +6301,7 @@ ul {
 }
 
 .footer__lang-dropdown a:hover span {
-    color: #66B032;
+    color: #236AB9;
 }
 
 .footer__lang-dropdown.show {
@@ -6357,7 +6357,7 @@ ul {
 .modal {
     position: relative;
     display: block;
-    background-color: #66B032;
+    background-color: #236AB9;
     margin: 40px auto;
     width: 100%;
     max-width: 420px;
@@ -6400,7 +6400,7 @@ ul {
 }
 
 .modal__close:hover svg {
-    fill: #66B032;
+    fill: #236AB9;
 }
 
 .modal__wallet {
@@ -6429,7 +6429,7 @@ ul {
 
 .modal__wallet:hover {
     box-shadow: 0 0 22px rgba(170, 114, 206, 0.12);
-    border-color: #66B032;
+    border-color: #236AB9;
     color: #fff;
 }
 
@@ -6483,7 +6483,7 @@ ul {
 .mfp-iframe-scaler iframe {
     border-radius: 20px;
     box-shadow: none;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .mfp-iframe-holder .mfp-close {
@@ -6508,7 +6508,7 @@ ul {
 
 .mfp-figure::after {
     box-shadow: none;
-    background-color: #66B032;
+    background-color: #236AB9;
 }
 
 .mfp-fade.mfp-bg {
@@ -6562,7 +6562,7 @@ ul {
 }
 
 .scrollbar-thumb-y {
-    background-color: #66B032 !important;
+    background-color: #236AB9 !important;
     width: 4px !important;
     border-radius: 4px !important;
     cursor: pointer;
@@ -6581,7 +6581,7 @@ ul {
 }
 
 .scrollbar-thumb-x {
-    background-color: #66B032 !important;
+    background-color: #236AB9 !important;
     height: 4px !important;
     border-radius: 4px !important;
     cursor: pointer;
